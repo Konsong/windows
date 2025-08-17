@@ -1,0 +1,16 @@
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
+Anahtar adı: SkipRearm (DWORD)
+
+0 → Rearm yapılacak
+1 → Rearm atlanacak (sysprep sınırını aşmak için bazen kullanılır)
+
+HKEY_LOCAL_MACHINE\SYSTEM\Setup\Status\SysprepStatus
+GeneralizationState
+
+7 → Generalize tamamlandı
+3 → Generalize başlamamış
+
+CleanupState
+
+2 → Temizlik tamamlandı
+1 → Temizlik yapılmamış
